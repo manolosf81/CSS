@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ <style>
+
+
+#button {
+ /* para eliminar tabulación de listas*/
+ padding: 0;
+ }
+
+
+
+#button li {
+   /* para dar tamaño menú segun contenido*/
+ display: inline;
+ }
+
+ /* estilo por defecto a la lista*/
+ #button li a {
+ font-family: Arial;
+ font-size: 11px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ background-color: #2175bc;
+ color: #fff;
+ }
+
+ /* estilo al pasar ratón con la propiedad hover. se la doy a los enalce hijos de li que sean de identificador buton*/
+ #button li a:hover {
+ background-color: #2586d7;
+ margin-top: -2;
+ padding-bottom: 12px;
+ }
+
+</style>
+</head>
+<body>
+    
+
+    <ul id=”button”>
+        <li><a href=”#”>Inicio</a></li>
+        <li><a href=”#”>Sobre nosotros</a></li>
+        <li><a href=”#”>Servicios</a></li>
+        <li><a href=”#”>Productos</a></li>
+        <li><a href=”#”>Contacto</a></li>
+    </ul>
+
+</body>
+</html>

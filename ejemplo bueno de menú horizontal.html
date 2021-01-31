@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+/* posicionarlo un poco a bajo y darle letra*/
+#menuh {
+    font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+#menuh ul, li {
+    list-style-type: none;
+}
+
+#menuh ul {
+    margin: 0;
+    padding: 0;
+}
+/* para que la lista se muestre hacia la derecha y no izquierda*/
+#menuh li {
+    float: left;
+} 
+/* estilo de los enlaces por defecto*/
+#menuh a {
+    text-decoration: none;
+    color: #3366CC;
+    background: #F0F7FC;
+    display: block;
+    padding: 3px 10px;
+    text-align: center;
+    border: 1px solid #ACCFE8;
+    border-width: 1px 1px 1px 0;
+}
+/* meter un punto de desplazamiento al primer li para que no borre la linea*/
+#menuh a#primero {
+    border-left: 1px solid #ACCFE8;
+}
+/* el color al pasar ratón*/
+#menuh a:hover {
+    background: #c1dd08;
+}
+
+    </style>
+</head>
+<body>
+    
+<div id="menuh">
+    <ul>
+            <li><a href="#menuh" id="primero">Inicio</a></li>
+            <li><a href="#menuh">Comentarios</a></li>
+            <li><a href="#menuh">Noticias</a></li>
+            <li><a href="#menuh">Contacto</a></li>
+            <li><a href="#menuh">Acerca de nosotros</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
+
+
+
+
